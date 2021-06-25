@@ -28,8 +28,8 @@
 #include <gdk-pixbuf/gdk-pixbuf-simple-anim.h>
 #include <glib/gstdio.h>
 
-#include <VTFLib.h>
-#include <VTFFile.h>
+#include <VTFLib13/VTFLib.h>
+#include <VTFLib13/VTFFile.h>
 
 using namespace VTFLib;
 

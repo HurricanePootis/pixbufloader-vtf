@@ -6,7 +6,7 @@ project(pixbufloader-vtf)
 find_package(PkgConfig REQUIRED)
 
 pkg_check_modules(PIXBUF REQUIRED gdk-pixbuf-2.0)
-pkg_check_modules(VTFLIB REQUIRED VTFLib)
+pkg_check_modules(VTFLIB13 REQUIRED VTFLib13)
 
 execute_process(COMMAND
 	"${PKG_CONFIG_EXECUTABLE}" gdk-pixbuf-2.0 --variable=gdk_pixbuf_moduledir
